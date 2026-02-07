@@ -1,6 +1,18 @@
 import React, { useState } from "react";
 import sarathImage from "./assets/sarath.jpeg";
 import Resume from "./assets/Sarath Kumar Resume.pdf";
+import htmlImg from "./assets/html.png";
+import cssImg from "./assets/css.png";
+import bootstrapImg from "./assets/bootstrap.png";
+import tailwindImg from "./assets/tailwind.png";
+import javascriptImg from "./assets/javascript.png";
+import reactImg from "./assets/react.png";
+import nodeImg from "./assets/node.png";
+import expressImg from "./assets/express.png";
+import mongoImg from "./assets/mongo.png";
+import mysqlImg from "./assets/mysql.png";
+import gitImg from "./assets/git.png";
+import githubImg from "./assets/github.png";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -249,42 +261,42 @@ function App() {
               <ul className="flex flex-wrap justify-center gap-4">
                 <li>
                   <img
-                    src="../src/assets/html.png"
+                    src={htmlImg}
                     alt="HTML"
                     className="h-12 w-12 hover:scale-110 transition-transform duration-300"
                   />
                 </li>
                 <li>
                   <img
-                    src="../src/assets/css.png"
+                    src={cssImg}
                     alt="CSS"
                     className="h-12 w-12 hover:scale-110 transition-transform duration-300"
                   />
                 </li>
                 <li>
                   <img
-                    src="../src/assets/bootstrap.png"
+                    src={bootstrapImg}
                     alt="BOOTSTRAP"
                     className="h-12 w-12 hover:scale-110 transition-transform duration-300"
                   />
                 </li>
                 <li>
                   <img
-                    src="../src/assets/tailwind.png"
+                    src={tailwindImg}
                     alt="TAILWIND CSS"
                     className="h-12 w-12 hover:scale-110 transition-transform duration-300"
                   />
                 </li>
                 <li>
                   <img
-                    src="../src/assets/javascript.png"
+                    src={javascriptImg}
                     alt="JAVASCRIPT"
                     className="h-12 w-12 hover:scale-110 transition-transform duration-300"
                   />
                 </li>
                 <li>
                   <img
-                    src="../src/assets/react.png"
+                    src={reactImg}
                     alt="REACT"
                     className="h-12 w-12 hover:scale-110 transition-transform duration-300"
                   />
@@ -299,28 +311,28 @@ function App() {
               <ul className="flex flex-wrap justify-center gap-4">
                 <li>
                   <img
-                    src="../src/assets/node.png"
+                    src={nodeImg}
                     alt="NODE.JS"
                     className="h-12 w-12 hover:scale-110 transition-transform duration-300"
                   />
                 </li>
                 <li>
                   <img
-                    src="../src/assets/express.png"
+                    src={expressImg}
                     alt="EXPRESS.JS"
                     className="h-12 w-12 hover:scale-110 transition-transform duration-300"
                   />
                 </li>
                 <li>
                   <img
-                    src="../src/assets/mongo.png"
+                    src={mongoImg}
                     alt="MongoDB"
                     className="h-12 w-12 hover:scale-110 transition-transform duration-300"
                   />
                 </li>
                 <li>
                   <img
-                    src="../src/assets/mysql.png"
+                    src={mysqlImg}
                     alt="mySQL"
                     className="h-12 w-12 hover:scale-110 transition-transform duration-300"
                   />
@@ -335,14 +347,14 @@ function App() {
               <ul className="flex flex-wrap justify-center gap-4">
                 <li>
                   <img
-                    src="../src/assets/git.png"
+                    src={gitImg}
                     alt="GIT"
                     className="h-12 w-12 hover:scale-110 transition-transform duration-300"
                   />
                 </li>
                 <li>
                   <img
-                    src="../src/assets/github.png"
+                    src={githubImg}
                     alt="GITHUB"
                     className="h-12 w-12 hover:scale-110 transition-transform duration-300"
                   />
